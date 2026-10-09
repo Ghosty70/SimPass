@@ -1,0 +1,22 @@
+{
+  "name": "simpass",
+  "productName": "SimPass",
+  "version": "1.0.0",
+  "description": "SimPass - yerel ve şifreli masaüstü şifre yöneticisi",
+  "main": "src/main.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build:win": "node scripts/build-win.js",
+    "test:e2e": "electron test/e2e.js"
+  },
+  "devDependencies": {
+    "@electron/asar": "^3.2.0",
+    "@electron/fuses": "^1.8.0",
+    "@electron/get": "^3.0.0",
+    "electron": "44.4.5",
+    "extract-zip": "^2.0.1",
+    "resedit": "^2.0.0"
+  }
+}

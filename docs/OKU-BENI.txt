@@ -1,0 +1,29 @@
+SimPass 1.0.0 - yerel, sifreli sifre yoneticisi
+==============================================
+
+KURULUM (kurulum gerekmez)
+1) ZIP dosyasini cikarmadan ONCE: ZIP'e sag tiklayin > Ozellikler >
+   en altta "Engellemeyi kaldir" kutusunu isaretleyin > Tamam.
+   (Bunu yaparsaniz "Windows bilgisayarinizi korudu / bilinmeyen yayinci"
+   uyarisi cikmaz.) Sonra ZIP'i sag tik > "Tumunu ayikla" ile cikarin.
+2) Cikan SimPass klasorunu istediginiz yere koyun (ornegin Belgeler).
+3) SimPass.exe dosyasina cift tiklayin.
+4) Uyari yine de cikarsa: "Daha fazla bilgi" > "Yine de calistir".
+   Uygulama sertifikayla imzali olmadigi icin Windows bunu bir kez sorabilir.
+
+ILK KULLANIM
+- Ana parola belirleyin (en az 12 karakter). Unutursaniz kasa kurtarilamaz.
+- Ayarlar > "Masaustu ve Baslat menusune kisayol ekle" ile kisayol olusturun.
+
+VERILERINIZ NEREDE?
+- Kasa dosyasi: %APPDATA%\SimPass\kasa-verileri.vault
+  (Ayarlar > "Dosyayi klasorde goster" ile acabilir, "Konumu degistir" ile
+  baska bir klasore, ornegin OneDrive'a tasiyabilirsiniz.)
+- Dosyanin ici tamamen sifrelidir (AES-256-GCM). Uygulama internete hicbir
+  sey gondermez; ag erisimi kapalidir.
+- Uygulamayi guncellerken veya klasoru silerken kasa dosyaniz etkilenmez.
+- Duzenli olarak Ayarlar > "Sifreli yedek al" ile yedek alin.
+
+ESKI (HTML) SURUMDEN GECIS
+- Giris ekraninda "Mevcut kasa dosyam var" > eski .vault dosyanizi secin,
+  ayni ana parolayla acin.
